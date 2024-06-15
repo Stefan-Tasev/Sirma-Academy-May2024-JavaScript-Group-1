@@ -1,0 +1,27 @@
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pic {
+    flex: 1, 1, auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    box-sizing: border-box;
+    flex: auto;
+    width: 280px;
+    height: 280px;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.pic :hover {
+    width: 500px;
+    height: 500px;
+}
