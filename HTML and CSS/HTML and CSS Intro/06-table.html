@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: blue;
+            font: 3em sans-serif;
+        }
+
+        div {
+            display: block;
+        }
+        table thead td {
+            font-weight: bold;
+        }
+        table, td {
+            margin: auto;
+            background-color: rgb(229, 223, 235);
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 5px 10px;
+            text-align: right;
+        }
+
+        td:first-child {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table</h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>Student</td>
+                    <td>Points</td>
+                    <td>Grade</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peter</td>
+                    <td>100</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>George</td>
+                    <td>50</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>75</td>
+                    <td>4.75</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
