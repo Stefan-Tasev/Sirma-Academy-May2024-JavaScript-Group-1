@@ -1,0 +1,23 @@
+h1 {
+    color: blue; 
+    font-size: 50px
+}
+h2 {
+    color: red; 
+    font-size: 30px
+}
+div {
+    width: fit-content;
+}
+p:first-child {
+    font-style: italic;
+}
+p:nth-child(2) {
+    background-color: beige;
+    color: green
+}
+p:last-child {
+    line-height: 2;
+    font-weight: bold; 
+    width:50%
+}
