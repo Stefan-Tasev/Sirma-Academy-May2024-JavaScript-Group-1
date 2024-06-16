@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+        </div>
+
+        <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+        </div>
+
+        <div>
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="birthday" min="1900-01-01" required>
+        </div>
+
+        <div>
+            <h3>Gender</h3>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="gender">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="gender">
+        </div>
+
+        <div>
+            <label for="textarea">Some text here!</label>
+            <textarea name="textarea" id="textarea" placeholder="Write here!"></textarea>
+        </div>
+
+        <div>
+            <label for="select">Select your car</label>
+            <select name="select" id="select" required>
+                <option value="">-</option>
+                <option value="bmv">BMV</option>
+                <option value="vw">VW</option>
+                <option value="opel">Opel</option>
+                <option value="ford">Ford</option>
+            </select>
+        </div>
+
+        <div>
+            <h3>Favorite colors</h3>
+            
+            <label for="blue">Blue</label>
+            <input type="checkbox" name="Blue" id="blue">
+            <label for="red">Red</label>
+            <input type="checkbox" name="Red" id="red">
+            <label for="green">Green</label>
+            <input type="checkbox" name="Green" id="green">
+        </div>
+
+        <div>
+            <input type="submit" id="submit">
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
