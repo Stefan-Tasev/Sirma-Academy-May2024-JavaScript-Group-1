@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 12px/1.5 "Lato", Verdana, sans-serif;
+}
+body {
+  font: inherit;
+  background: #EEE;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify;
+    line-height: normal;
+    background-color: aliceblue;
+    color: black;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 900;
+    text-align: left;
+    line-height: 2;
+    background-color: azure;
+    color: blue;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-style: unset;
+    font-weight: bolder;
+    text-align: start;
+    line-height: 1.5;
+    background-color: bisque;
+    color: yellow;
+}
+article {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #EEE;
+    color: blueviolet;
+}
+
+article p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: start;
+    line-height: 2;
+    background-color: aqua;
+    color: green;
+}
+
+.blue {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-style: initial;
+    font-weight: 500;
+    text-align: unset;
+    line-height: 3;
+    border-color: aquamarine;
+    color: gray;
+}
