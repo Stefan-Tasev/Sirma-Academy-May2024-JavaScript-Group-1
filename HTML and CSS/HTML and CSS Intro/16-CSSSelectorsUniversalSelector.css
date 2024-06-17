@@ -1,0 +1,18 @@
+.blue {
+    background-color: blue;
+}
+
+#important {
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 16px;
+    color: blueviolet;
+}
+p {
+    text-decoration: underline;
+}
+* [lang^="en"] {
+    color: red;
+    text-decoration: solid;
+    background-color: chartreuse;
+}
