@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 12px/1.5 "Lato", Verdana, sans-serif;
+}
+
+body {
+  font: inherit;
+  background-color: #EEE;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pictures {
+    display: flex;
+    gap: 20px;
+}
+
+.pic {
+    flex: 1, 1, auto;
+    display: flex;
+}
+.hover {
+    margin: 0;
+}
+.hover :hover {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 900;
+    text-align: left;
+    line-height: 2;
+    color: blue;
+    border: 3px solid rgb(20, 13, 148);
+}
+.pic :hover {
+    width: 500px;
+    height: auto;
+}
