@@ -1,0 +1,7 @@
+.percentage-width {
+    width: 50%;
+    background-color: aquamarine;
+    border: 2px solid green;
+    padding: 10px;
+    color: darkblue;
+}
