@@ -1,0 +1,13 @@
+.pixel-width {
+    width: 300px;
+    background-color: bisque;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.percentage-width {
+    width: 50%;
+    background-color:rgb(109, 109, 238);
+    border: 2px solid black;
+    padding: 10px;
+}
