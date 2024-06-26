@@ -1,0 +1,22 @@
+.first-part .parent {
+    background-color: aliceblue;
+    border: 2px solid blue;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.first-part .child {
+    font-size: 1.5em;
+}
+
+.second-part .parent {
+    background-color:aqua;
+    border: 2px solid red;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.second-part .child {
+    font-size: 1.5em;
+}
