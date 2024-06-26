@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#unique-element {
+    margin-top: 20px;
+    color: green;
+    padding: 2rem;
+    background-color: cadetblue;
+    border: 1px dashed blue;
+}
