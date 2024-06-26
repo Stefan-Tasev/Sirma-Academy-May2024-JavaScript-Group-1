@@ -1,0 +1,19 @@
+#unique {
+    color: red;
+    background-color: orange;
+    border: 1px solid darkred;
+}
+
+.highlight {
+    color: blue;
+    background-color: whitesmoke;
+    border: 1px solid darkblue;
+    padding: 1rem;
+}
+
+p {
+    color: green;
+    background-color: greenyellow;
+    border: 1px solid darkgreen;
+    display: inline-block;
+}
