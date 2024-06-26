@@ -1,0 +1,26 @@
+.first-part .highlight {
+    color: red;
+}
+
+.second-part .highlight {
+    background-color: blue;
+}
+
+.second-part .red {
+    color: red;
+}
+
+.third-part .common-style {
+    background-color: antiquewhite;
+    padding: 1rem;
+    border: 2px solid green;
+    color: blueviolet;
+    font: 1em sans-serif;
+}
+
+.fourth-part .highlight {
+    background-color: beige;
+    color: darkblue;
+    border: 1px dashed red;
+    padding: 2rem;
+}
