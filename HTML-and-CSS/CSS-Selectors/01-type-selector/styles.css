@@ -1,0 +1,29 @@
+.first-part p {
+    color: blue;
+    font-weight: bold;
+}
+
+.second-part h1, h2 {
+    color: green;
+}
+
+.third-part h1 {
+    font-size: 10rem;
+    color: brown;
+}
+
+.third-part p {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.2rem;
+    background-color: yellow;
+}
+
+.third-part div {
+    margin-left: 50%;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 0.3rem;
+    background-color: yellowgreen;
+    color: chocolate;
+}
