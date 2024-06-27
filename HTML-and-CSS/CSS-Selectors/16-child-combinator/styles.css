@@ -1,0 +1,16 @@
+div>p {
+    background-color: aquamarine;
+    color: brown;
+    font-size: 2rem;
+    border: 2px solid green;
+    padding: 2rem;
+}
+
+.parent>p {
+    background-color: bisque;
+    color: blueviolet;
+    font-size: 3rem;
+    border: 2px solid red;
+    border-radius: 2rem;
+    padding: 2rem;
+}
