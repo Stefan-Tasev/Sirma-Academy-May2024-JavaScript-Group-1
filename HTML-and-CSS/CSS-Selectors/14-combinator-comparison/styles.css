@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    background-color: beige;
+    font: 2em sans-serif;
+    text-decoration: underline;
+    border: 1px solid darkred;
+    padding: 2rem;
+    text-align: center;
+}
+
+div p {
+    padding: 2rem;
+    background-color: antiquewhite;
+    color: blueviolet;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div > p {
+    text-align: center;
+    font-size: 4rem;
+}
