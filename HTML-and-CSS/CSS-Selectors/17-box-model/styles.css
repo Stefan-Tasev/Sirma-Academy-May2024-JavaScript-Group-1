@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+}
+
+.box {
+    margin: 20px;
+    border: 5px solid black;
+    padding: 30px;
+    width: 500px;
+    font-size: 30px;
+    background-color: aqua;
+    color: blue;
+}
+
+.box-total-width {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.box-total-width:hover:after {
+    display: block;
+    color: red;
+    background-color: aliceblue;
+    font-size: 50px;
+    content: 'Total width is: 250';
+}
