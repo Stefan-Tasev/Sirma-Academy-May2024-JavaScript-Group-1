@@ -1,0 +1,30 @@
+.block,
+.inline,
+.inline-block {
+    border: 2px solid black;
+}
+
+.block {
+    display: block;
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.inline {
+    display: inline;
+    background-color: azure;
+    color: red;
+    margin: 20px;
+    padding: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: aliceblue;
+    color: green;
+    margin: 5px;
+    padding: 5px;
+}
