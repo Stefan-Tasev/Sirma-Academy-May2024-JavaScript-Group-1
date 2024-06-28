@@ -1,0 +1,10 @@
+.box-model {
+    /* display: inline-block; */
+    background-color: aqua;
+    color: blue;
+    margin: 50px, 30px, 10px, 20px;
+    padding: 30px 10px 20px 60px;
+    border-width: 10px 1px 20px 6px;
+    border-color: green;
+    border-style: solid;
+}
