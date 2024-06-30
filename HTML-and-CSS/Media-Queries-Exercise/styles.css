@@ -1,10 +1,14 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
-.container {}
+.container {
+    display: block;
+    padding: 10px;
+}
 
 header,
 footer {
@@ -26,14 +30,43 @@ main {
     text-align: center;
 }
 
-@media (min-width: 600px) and (max-width: 1199px) {
-    .container {}
+@media (min-width: 599px) and (max-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+    .container {
+        padding: 10px 0;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 }
 
-@media (min-width: 1200px) {
-    .container {}
+@media (min-width: 1200.5px) {
+    body {
+        font-size: 2em;
+    }
+
+    .container {
+        padding: 10px 0;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
 }
 
-@media (max-width: 599px) {
-    .container {}
+@media (max-width: 599.5px) {
+
+    body {
+        font-size: 1.2em;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        margin: 0;
+    }
 }
