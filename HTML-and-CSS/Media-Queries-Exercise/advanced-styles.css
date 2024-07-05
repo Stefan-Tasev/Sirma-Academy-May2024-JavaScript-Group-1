@@ -33,11 +33,11 @@ nav a {
 
 @media (max-width: 599.5px) {
     body {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     h1 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     header, footer{
@@ -63,7 +63,7 @@ nav a {
     
     .section{
         text-align: center;
-        padding: 1em;
+        padding: 1.5em 1em;
         margin: 0 1em;
     }
 }
@@ -73,31 +73,24 @@ nav a {
         font-size: 1.6em;
     }
 
-    header, footer{
+    header{
+        font-size: 1em;
+        margin-bottom: 1em;
         padding: 1em;
+    }
+
+    h1 {
+        font-size: 1.4em;
     }
 
     footer {
-        font-size: 1em;
+        font-size: 0.8em;
         margin-top: 1em;
+        padding: 1em;
     }
     
     nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1em;
-        padding: 1em;
-        margin-bottom: 1em;
-    }
-
-    a {
-        text-align: center;
-    }
-
-    a:focus, a:active {
-        color: green;
-        text-decoration: underline;
+        display: none;
     }
 
     .container {
@@ -114,18 +107,86 @@ nav a {
     }
 }
 
-@media (min-width: 900px) and (max-width: 1399px) {
+@media (min-width: 900px) and (max-width: 1399.5px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr auto 1fr;
+    }
+
+    header {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
     nav {
+        grid-area: 1 / 1 / 4 / 2;
+        text-align: center;
+        display: inline-block;
+        padding-top: 1em;
+        width: 250px;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 0 0.5em;
     }
 
     .container {
+        grid-area: 2 / 2 / 3 / 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1em;
+        margin: 1em 1em 1em 0;
+    }
+
+    .section {
+        text-align: center;
+        padding: 1em;
+    }
+
+    footer {
+        grid-area: 3 / 2 / 4 / 3;
     }
 }
 
 @media (min-width: 1400px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.8em;
+    }
+
     nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+    }
+    nav a {
+        display: inline-block;
+        padding: 0.5em;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        color: #008000;
+        transition: 0.4s;
     }
 
     .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5em;
     }
+
+    .section {
+        padding: 1em;
+        text-align: center;
+        margin: 1em 0.5em;
+    }
+
 }
