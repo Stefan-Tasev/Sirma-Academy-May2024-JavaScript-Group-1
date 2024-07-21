@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    position: sticky;
+    background-color: #303030;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+.content {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 35px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-decoration: none;
+}
+
+.content i {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+
+
+main {
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px;
+}
+
+.hero {
+    background-image: url("./assets/home-picture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    gap: 30px;
+}
+
+.container h1 {
+    font-size: 125px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+.container p {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.container .registration {
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    border-radius: 4px;
+    background-color: #e8631c;
+    width: 322px;
+    height: 65px;
+}
+
+
+.dance-tour {
+    width: 1440px;
+    background-color: #e8631c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.dance-tour h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.dance-tour p {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.card {
+    background-color: #303030;
+    width: 373px;
+}
+
+.card img {
+    width: 373px;
+    height: auto;
+}
+
+.card h3 {
+    padding: 20px;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.card p {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 20px;
+}
+
