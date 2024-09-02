@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const { engine } = require('express-handlebars');
 
 const connectDb = require('./db');
 const bookRoutes = require('./controllers/book-controller')
@@ -8,7 +9,11 @@ const app = express();
 
 app.use('/books', bookRoutes);
 
-app.set('views', path.join(__dirname, 'views'))
+app.set('views', path.join(__dirname, 'views'));
+app.engine('.hbs', engine({
+    extname: 'hbs',//handlebars
+}));
+app.set('view engine', '.hbs')
 
 /* const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
