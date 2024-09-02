@@ -1,9 +1,0 @@
-controllers
-    book-controller.js
-models
-    book-model.js
-views
-    books
-    layouts
-db.js - mongodb+srv://<db_username>:<db_password>@cluster0.ymwrm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-server.js
