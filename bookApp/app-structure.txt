@@ -1,0 +1,12 @@
+controllers
+    book-controller.js
+models
+    book-model.js
+views
+    books
+        adOrEdit.hbs
+        index.hbs
+    layouts
+        main.hbs //mainLayout.hbs
+db.js 
+server.js
