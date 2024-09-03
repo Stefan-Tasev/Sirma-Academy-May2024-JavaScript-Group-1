@@ -1,0 +1,26 @@
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th><a href="/books/addOrEdit">+ Add</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each books}}
+
+        <tr>
+            <td>{{this.title}}</td>
+            <td>{{this.author}}</td>
+            <td>${{this.price}}</td>
+            <td>
+                <form action="/books/delete/{{this._id}}" method="post">
+                    <a href="/books/addOrEdit/{{this._id}}">Edit</a>
+                    <button type="submit">DELETE</button>
+                </form>
+            </td>
+        </tr>
+        {{/each }}
+    </tbody>
+</table>
