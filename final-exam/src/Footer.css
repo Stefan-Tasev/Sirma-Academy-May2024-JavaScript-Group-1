@@ -1,0 +1,10 @@
+.home-footer {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #5a96da;
+}
+
+.home-footer p:last-child{
+    font-size: 12px;
+}
+
