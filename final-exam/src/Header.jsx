@@ -9,7 +9,7 @@ export default function Header() {
                 </div>
                 <div>
                     <ul>
-                        <li>Matches</li>
+                        <li><a href="http://">Matches</a></li>
                         <li>Group Stage</li>
                         <li>News</li>
                         <li>Statistics</li>
