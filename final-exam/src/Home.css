@@ -1,0 +1,16 @@
+.site {
+  max-width: 1960px;
+  height: 100vh;
+}
+
+.image1 {
+    background-image: url("/UEFA-Euro-2024-Wordmark-Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+  }
+
+.image1 p {
+    height: auto;
+}
