@@ -5,7 +5,7 @@ export default function Header() {
         <>
             <header className="home-header">
                 <div>
-                    <h2><a href="https://www.uefa.com/euro2024/">OFFICIAL UEFA EURO 2024</a></h2>
+                    <h2><a target="_blank" href="https://www.uefa.com/euro2024/">OFFICIAL UEFA EURO 2024</a></h2>
                 </div>
                 <div>
                     <ul>
