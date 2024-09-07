@@ -1,0 +1,11 @@
+.home-header {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.home-header ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
